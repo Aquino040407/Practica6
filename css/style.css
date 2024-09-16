@@ -1,3 +1,7 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 body{
     background-color: #665959;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -25,4 +29,34 @@ div{
     border: solid 2px #999999;
     border-radius: 15px 0px 15px 0px;
     box-shadow: 2px 2px 5px #C0C2C3;
+}
+ul{
+    list-style: none;  /*estilos de las listas*/
+}
+ul li{
+    font-family:'Segeo UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Tipo de letra*/
+    font-size: 22px; /*tamaño de letra*/
+    height:60px;  /*Altura de cada opción de lista*/
+}
+ul li a{
+    height: 60px; /*Altura*/
+    background-color: #333; /*Color de fondo*/
+    display: block;
+    border-left: 10px solid rgb(8, 96, 179);
+    border-right: 5px solid rgb(144, 253, 111);
+    padding-left: 15px; /*separación izquierda del texto*/
+    text-decoration: none;
+    color: #bfe1f1 
+}
+ul li a:hover{
+    margin-left: 10px; /*separación del lado izquierdo*/
+    color: #b9b7b7; /*color de letra*/
+    background-color: #0b1741; /*color de fondo*/
+    box-shadow: 10px 10px 20px #000; /*sombra*/
+    transform: rotate(4deg); /*movimiento de rotación*/
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+td{
+    vertical-align: top;
 }
