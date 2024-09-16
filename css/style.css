@@ -36,7 +36,7 @@ ul{
 ul li{
     font-family:'Segeo UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Tipo de letra*/
     font-size: 22px; /*tamaño de letra*/
-    height:60px;  /*Altura de cada opción de lista*/
+    height: 60px;  /*Altura de cada opción de lista*/
 }
 ul li a{
     height: 60px; /*Altura*/
